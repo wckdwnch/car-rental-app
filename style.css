@@ -1,0 +1,330 @@
+/* =========================================================
+   LATTE CRUISERS THEME
+   A warm coffee-inspired car rental interface
+   ========================================================= */
+
+/* Coffee Palette
+   Espresso:      #3b2314
+   Dark Roast:    #4a2812
+   Mocha:         #5c3317
+   Caramel:       #b88968
+   Latte Foam:    #fff8f2
+   Cream:         #f5ede3
+   Roast Red:     #9b4f32
+*/
+
+/* Base */
+window,
+stack,
+dialog {
+    background-color: #f5ede3;
+    color: #3b2314;
+}
+
+dialog box {
+    spacing: 10px;
+    padding: 16px;
+}
+
+/* Header */
+headerbar {
+    background-image: none;
+    background-color: #d8cec3;
+    border-bottom: 1px solid #d4a98a;
+    box-shadow: none;
+}
+
+headerbar label.app-title,
+headerbar label#appTitle,
+label.app-title,
+label#appTitle {
+    font-family: "Georgia", "Garamond", "Palatino Linotype", serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #4a2812;
+    letter-spacing: 2px;
+    text-shadow: none;
+}
+
+.app-subtitle {
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8a6a52;
+    letter-spacing: 0.5px;
+    margin-top: -4px;
+}
+
+/* Sidebar */
+.sidebar-container {
+    background-color: #efe6dc;
+    border-right: 3px solid #c99573;
+    padding-right: 10px;
+}
+
+button.sidebar-button,
+button.sidebar-action-button {
+    background-image: none;
+    background-color: #d9b99f;
+    color: #2a160c;
+    border: 1px solid #b88968;
+    border-radius: 12px;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: "Georgia", "Garamond", serif;
+    font-weight: 700;
+}
+
+button.sidebar-button {
+    font-size: 15px;
+    padding: 10px 18px;
+}
+
+button.sidebar-action-button {
+    font-size: 13px;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+}
+
+button.sidebar-button:hover,
+button.sidebar-action-button:hover {
+    background-color: #c99d7a;
+}
+
+button.sidebar-button:active,
+button.sidebar-button:checked,
+button.sidebar-action-button:active {
+    background-color: #b88968;
+}
+
+/* Page titles */
+label.title {
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #5c3317;
+    padding-bottom: 8px;
+}
+
+.page-subtitle {
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 14px;
+    color: #8a6a52;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #4a2812;
+}
+
+/* Cream cards */
+frame.card {
+    background-color: #fff8f2;
+    border-radius: 16px;
+    border: 1px solid #e0c5b0;
+    padding: 12px;
+}
+
+frame.card > border {
+    border: none;
+}
+
+/* Tables */
+treeview {
+    background-color: #fff8f2;
+    color: #3b2314;
+    border-radius: 12px;
+    font-size: 13px;
+}
+
+treeview:selected {
+    background-color: #c27a50;
+    color: #ffffff;
+}
+
+treeview header button {
+    background-image: none;
+    background-color: #ecddd0;
+    color: #5c3317;
+    font-weight: bold;
+    border: none;
+    padding: 6px 10px;
+}
+
+/* Search and form entries */
+entry,
+.search-entry,
+entry.form-entry {
+    background-image: none;
+    background-color: #fff8f2;
+    color: #2a160c;
+    border: 1px solid #c99573;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+entry {
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.search-entry {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+entry.form-entry {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+entry:focus,
+.search-entry:focus,
+entry.form-entry:focus {
+    background-image: none;
+    border: 2px solid #b88968;
+    box-shadow: none;
+}
+
+/* Default buttons */
+button {
+    background-image: none;
+    background-color: #d9b99f;
+    color: #2a160c;
+    border: 1px solid #b88968;
+    border-radius: 12px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 18px;
+}
+
+button:hover {
+    background-color: #c99d7a;
+}
+
+button:active {
+    background-color: #b88968;
+}
+
+/* Main action buttons */
+button.primary-button {
+    background-color: #b88968;
+    border-color: #8f5f3d;
+    border-radius: 10px;
+    padding: 8px 18px;
+}
+
+button.primary-button:hover {
+    background-color: #a77655;
+}
+
+button.primary-button:active {
+    background-color: #8f5f3d;
+}
+
+button.secondary-button {
+    background-color: #d9b99f;
+    border-color: #b88968;
+    border-radius: 10px;
+    padding: 8px 18px;
+}
+
+button.secondary-button:hover {
+    background-color: #c99d7a;
+}
+
+button.secondary-button:active {
+    background-color: #b88968;
+}
+
+/* Remove / return buttons */
+button.danger-button {
+    background-color: #9b4f32;
+    color: #fff8f2;
+    border-color: #7a3824;
+    border-radius: 10px;
+    padding: 8px 18px;
+}
+
+button.danger-button:hover {
+    background-color: #843f29;
+}
+
+button.danger-button:active {
+    background-color: #6f321f;
+}
+
+/* Popup windows */
+window.form-window {
+    background-color: transparent;
+    color: #3b2314;
+}
+
+box.popup-card {
+    background-color: #f5ede3;
+    border: 2px solid #b88968;
+    border-radius: 18px;
+    box-shadow: none;
+}
+
+label.form-title {
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #5c3317;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+}
+
+button.form-button,
+button.popup-close-button {
+    background-color: #d9b99f;
+    color: #2a160c;
+    border: 1px solid #b88968;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+button.form-button {
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 24px;
+}
+
+button.form-button:hover,
+button.popup-close-button:hover {
+    background-color: #c99d7a;
+}
+
+button.popup-close-button {
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* License checkbox */
+checkbutton.license-toggle {
+    color: #2a160c;
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 12px;
+}
+
+/* Force readable text colors */
+button label,
+button *,
+treeview header button label,
+treeview header button *,
+checkbutton.license-toggle label,
+checkbutton.license-toggle * {
+    color: inherit;
+    text-shadow: none;
+    opacity: 1;
+}
